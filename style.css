@@ -5,11 +5,32 @@ h1{
     letter-spacing: 20px; 
     
 }
+h2,h3{
+    color: red;
+}
 
 a {
     text-decoration: none;
+    color: tomato;
 }
 p{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(194, 206, 229);
+}
+button{
+    background-color: cyan;
+}
+
+#login{
+    background-color: darkcyan;
+    color: burlywood;
+}
+
+#signup {
+    background-color: plum;
+    color: yellow;
 }
