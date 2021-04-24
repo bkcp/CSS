@@ -17,9 +17,16 @@ p{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
+.beginning{
+    background-color: rgb(255, 255, 255);
+ 
+}
+.mid{
+    background-color: whitesmoke;
+}
 
 body{
-    background-color: rgb(194, 206, 229);
+    background-color: rgb(139, 212, 205);
 }
 button{
     background-color: cyan;
@@ -34,3 +41,20 @@ button{
     background-color: plum;
     color: yellow;
 }
+.tag{
+    color: teal;
+    font-size: 10px;
+}
+span{
+    background-color: yellowgreen;
+}
+.link{
+    background-color: wheat;
+}
+li a{
+    background-color: white;
+}
+hr + h2{
+    background-color: blue;
+}
+
