@@ -8,10 +8,16 @@ h1{
 h2,h3{
     color: red;
 }
+.paragraph::selection{
+    background-color: lightcoral;
+}
 
 a {
     text-decoration: none;
     color: tomato;
+}
+a:hover{
+    color: blue;    
 }
 p{
     font-size: large;
@@ -31,6 +37,7 @@ body{
 button{
     background-color: cyan;
 }
+
 
 #login{
     background-color: darkcyan;
@@ -54,7 +61,46 @@ span{
 li a{
     background-color: white;
 }
+li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: red underline;
+}
+li a:active{
+    background-color: pink;
+    color: blue;
+    text-decoration: yellow underline;
+}
 hr + h2{
     background-color: blue;
 }
+input[type="password"]{
+    color: red;
+}
 
+#pword{
+    color: red;
+}
+
+.post:nth-of-type(2n){
+    background-color: rgb(234, 179, 245);
+}
+
+h2::first-letter{
+    font-size: larger;
+}
+.paragraph::first-line{
+    color:orange;
+    background-color: lightpink;
+}
+
+.post button:hover{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+button:hover{
+    background-color: olive;
+    font-size: 15px;
+}
+/*specificity: id > class > elements/psudo selectors*/
