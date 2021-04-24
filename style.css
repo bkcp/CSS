@@ -3,6 +3,8 @@ h1{
     font-weight: normal;   
     text-decoration: red dotted underline;
     letter-spacing: 20px; 
+   /* width: 400px;*/
+    background-color: rgb(237, 252, 222);
     
 }
 h2,h3{
@@ -33,6 +35,7 @@ p{
 
 body{
     background-color: rgb(139, 212, 205);
+  
 }
 button{
     background-color: cyan;
@@ -83,14 +86,15 @@ input[type="password"]{
 }
 
 .post:nth-of-type(2n){
-    background-color: rgb(234, 179, 245);
+    background-color: rgb(197, 187, 212);
+    border-color: black;
 }
 
 h2::first-letter{
     font-size: larger;
 }
 .paragraph::first-line{
-    color:orange;
+    color:rgb(143, 102, 26);
     background-color: lightpink;
 }
 
@@ -104,3 +108,25 @@ button:hover{
     font-size: 15px;
 }
 /*specificity: id > class > elements/psudo selectors*/
+.post{
+ /* border-width: 2   px;
+  border-color: rgb(211, 131, 131);
+  border-style: solid;
+  */
+  border: 5px solid rgb(211, 131, 131);
+  border-radius: 5%;
+  margin: 5px;
+  padding: 5px;
+ /* box-sizing: border-box;*/   
+}
+#buttonpad{
+    padding: 10px 15px 40px 20px;
+    color: blue;
+
+}
+#buttonpad:hover{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
