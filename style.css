@@ -130,3 +130,12 @@ button:hover{
     padding: 20px;
 
 }
+
+.div{
+    background-color: green;
+    border:5px solid rgb(0, 0, 0);
+    width: 50px;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;    
+}
