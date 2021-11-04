@@ -148,6 +148,19 @@ button:hover {
   margin: 20px;
   display: inline-block;
 }
+.unit_container {
+  background-color: rgb(85, 82, 53);
+  height: 100%;
+  width: 50%;
+}
+.Unit {
+  background-color: rgba(0, 17, 255, 0.5);
+  border: 5px solid rgba(122, 216, 46, 0.5);
+  width: 1em;
+  padding: 3em;
+  margin: 20px;
+  display: inline-block;
+}
 
 .Opacity {
   background-color: red;
@@ -186,24 +199,33 @@ article h2 {
   margin-left: 1em;
 }
 article button {
-  font-size: 1em;
+  font-size: 4em;
   padding: 0 1em;
-  border-radius: 0.5em;
+  border-radius: 0.2em;
   background-color: skyblue;
   color: white;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
 }
 .position {
   background-color: steelblue;
   border: 5px solid black;
   width: 30px;
   padding: 40px;
-  margin: 10px;
+  margin: 1px;
   display: inline-block;
   position: static;
 }
 #midbox {
   background-color: tomato;
+  position: absolute;
+  left: 50px;
+}
+.pos {
   position: relative;
+  left: 10%;
 }
 .circle {
   width: 200px;
@@ -215,6 +237,39 @@ article button {
   background-color: yellow;
   border-radius: 50%;
 }
+
+#breathe {
+  position: relative;
+}
+.circle2 {
+  position: relative;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  animation-duration: 3s;
+  animation-name: breathe;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes breathe {
+  from {
+    background-color: rgb(150, 7, 150);
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+  }
+  to {
+    background-color: yellow;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+
 #transform1 {
   background-color: rgba(0, 0, 0, 0);
 }
